@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image:url('images/netflix.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+header{
+  a{
+    text-decoration: none;
+  }
+  ul{
+      list-style: none;
+      display: flex;
+      // align-items: center;
+      justify-content: end;
+      // gap: 11px;
+      margin-right: 20px;
+      li {
+          a{
+              text-decoration: none;
+              button{
+                  background-color: transparent;
+                  color: white;
+                  font-weight: bolder;
+                  border: solid 4px white;
+                  width:120px;
+                  height: 40px;
+                  &:hover{
+                      cursor: pointer;
+                      background-color: white;
+                      color: #DC333F;
+                  }
+              }
+              #creer_compt{
+                  width: 170px;
+              }
+          }
+      }
+  }
+}
+
+  .gr{
+    display: flex;
+    flex-direction: column
+  }
+
+@mixin flexebility {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#boody{
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+}
+
+.form{
+    @include flexebility();
+    color: white;
+    input{
+        margin-bottom: 15px;
+        border: none;
+        border-bottom: 2px solid #DC333F;
+        outline: none;
+        background-color: rgba(24, 22, 22, 0.5);
+        height: 30px;
+        color: white;
+    }
+    #inscription{
+      background-color: transparent;
+      color: white;
+      font-weight: bold;
+      border: solid 2px white;
+      width:120px;
+      height: 40px;
+      &:hover{
+          cursor: pointer;
+          background-color: white;
+          color: #DC333F;
+      }
+
+
+    }
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  // position:fixed;
+  //  left:0px;
+  //  bottom:0px;
+  //  width: 100%;
+}
+
+#icones{
+  display: flex;     
+  .icone{
+    width: 30px !important;
+    height: 30px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width:1200px) and (max-width:600px){
+  .footer{
+    position:fixed;
+     left:0px;
+     bottom:0px;
+     width: 100%;
+  }
+ 
+  }
+ 

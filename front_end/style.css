@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/netflix.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-right: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
+header ul li a button {
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+  border: solid 4px white;
+  width: 120px;
+  height: 40px;
+}
+
+header ul li a button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #DC333F;
+}
+
+header ul li a #creer_compt {
+  width: 170px;
+}
+
+.gr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#boody {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.form input {
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #DC333F;
+  outline: none;
+  background-color: rgba(24, 22, 22, 0.5);
+  height: 30px;
+  color: white;
+}
+
+.form #inscription {
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border: solid 2px white;
+  width: 120px;
+  height: 40px;
+}
+
+.form #inscription:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #DC333F;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: auto;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#icones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#icones .icone {
+  width: 30px !important;
+  height: 30px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1200px) and (max-width: 600px) {
+  .footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

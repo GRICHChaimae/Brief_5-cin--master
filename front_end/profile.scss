@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/Group.png);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+header{
+    // background-attachment: fixed;
+    a{
+      text-decoration: none;
+    }
+    #logout{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10%;
+        // margin-right: 10%;
+        width: 80%;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        img{
+            width: 30px;
+        }
+        a{
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            &:hover{
+                color: #DC333F;
+            }
+        }
+        p{
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            &:hover{
+                color: #DC333F;
+            }
+        }
+        button{
+            background-color: transparent;
+            color: white;
+            font-weight: bold;
+            border: none;
+            font-size: 20px;
+            // width:170px;
+            &:hover{
+                cursor: pointer;
+                color: #DC333F;
+            }
+    }
+    }
+  }
+
+.fixed_post{
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+    img{
+        width: 95%;
+        margin-left: 2.5%;
+        object-fit: cover;
+        margin-top: 10px;
+    }
+    p{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 10px;
+    }
+    h4{
+        width: 95%;
+        margin-left: 2.5%;
+        color: #DC333F;
+    }
+    #commenter{
+        display: flex;
+        justify-content: end;
+        margin-right: 2.5%;
+        img{
+            width: 30px;
+        }
+        input{
+            background: transparent;
+            border: none;
+            // margin-top: 11px;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+    }
+    #like{
+        display: flex;
+        margin-left: 2.5%;
+        img{
+            width: 30px;
+            margin-right: 70px;
+        }
+    }
+    #react{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    header{
+        // background-attachment: fixed;
+      
+        #logout{
+            margin-left:1%;
+            // margin-right: 10%;
+            width: 98%;
+            margin-bottom: 10px;
+            padding-top: 20px;
+            img{
+                width: 20px;
+            }
+            a{
+                font-size: 16px;
+                font-weight: normal;
+            }
+            p{
+                font-size: 16px;
+                font-weight: normal;
+            }
+            button{
+                font-size: 16px;
+                font-weight: normal;
+        }
+        }
+      }
+      .fixed_post{
+        width: 98%;
+        margin-left: 1%;
+      }
+    
+
+}
