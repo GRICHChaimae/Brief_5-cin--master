@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.952);
+    color: white;
+}
+
+.test{
+    height:70vh; 
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    h1{
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    p{
+        font-weight: bold;
+        font-size: 24px;
+        font-family: helvetica;
+        margin-left: 30px;
+    }
+}
+
+.logo{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.creer{
+    p{
+        color: #DC333F;
+    }
+    button{
+        background-color: transparent;
+        color: white;
+        font-weight: bolder;
+        border: solid 4px white;
+        width:120px;
+        height: 40px;
+        &:hover{
+            cursor: pointer;
+            background-color: white;
+            color: #DC333F;
+        }
+}
+}
+
+
+header{
+    a{
+        text-decoration: none;
+      }
+    ul{
+        list-style: none;
+        display: flex;
+        // align-items: center;
+        justify-content: end;
+        gap: 11px;
+        margin-right: 20px;
+        li {
+            
+            a{
+                text-decoration: none;
+                button{
+                    background-color: transparent;
+                    color: white;
+                    font-weight: bolder;
+                    border: solid 4px white;
+                    width:120px;
+                    height: 40px;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: white;
+                        color: #DC333F;
+                    }
+                }
+                #creer_compt{
+                    width: 170px;
+                }
+            }
+        }
+    }
+}
+
+h3{
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.watching{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    color: white;
+    p{
+        margin-top: 5px;
+        // margin-bottom: 5px;
+    }
+}
+
+.box{
+    width: 20%;
+    // height: 300px;
+    margin: 0px 20px ;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imageSize{
+        height: 320px;
+        object-fit: cover;
+        // margin-top: 30px;
+    }
+
+ .watching2{
+     padding-top: 40px;
+     padding-bottom: 20px;
+ }  
+
+
+ .vl {
+    border-left: 3px solid white;
+    height: 270px;
+  }
+
+  .vh{
+      border-bottom: 3px solid white;
+      width: 80%;
+      display: none;
+      text-align: center;
+  }
+
+  .movie_pic{
+      display: flex;
+  }
+
+.actors{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+  .rounded_images{
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  .pic_text{
+      display: flex;
+      margin-top: 20px;
+  }
+  .star_div{
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.815);
+      color: rgb(255, 255, 255);
+      padding: 20px;
+      width: 80%;
+      height: 310px;
+      margin-left: 10%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+.p_star{
+    width: 30%;
+    margin-right: 20px;
+    align-content: center;
+}
+
+  .star{
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+  }
+
+  .footer{
+      background-color: black;
+      color: white;
+      height: auto;
+      padding: 10px;
+      padding-bottom: 0px;
+      display: flex;
+      justify-content: space-between;
+ 
+  }
+
+  #icones{
+      display: flex;     
+      .icone{
+        width: 30px !important;
+        height: 30px;
+        margin-left: 10px;
+      }
+  }
+
+  @media screen and (max-width:1200px){
+header{
+    button{
+        margin-top: 20px;
+    }
+    ul{
+        gap: 20px;
+    }
+}
+    .box{
+        width:30%;
+    }
+    .star_div{
+        display: block;
+        height: auto;
+  }
+  .p_star{
+    width: 80%;
+    margin-right: 0px;
+    margin-left: 20px;
+}
+.movie_pic{
+    display: block;
+}
+.vl {
+   display: none;
+  }
+  .vh{
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.test{
+    height: 750px;
+}
+}
+
+  @media screen and (max-width:600px){
+    header{
+        button{
+            margin-top: 30px;
+        }
+    }
+    .box{
+        width:70%;
+    }
+    .star_div{
+        display: block;
+        height: auto;
+  }
+    .p_star{
+        width: 80%;
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+    .vl {
+        display: none;
+    }
+    .vh{
+        display: block;
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+    .movie_pic{
+        display: block;
+    }
+    .actors {
+        margin-left: 0;
+    }
+    .test{
+        height: 550px;
+    }
+    h1{
+        margin-top: 40px;
+    }
+   
+  }

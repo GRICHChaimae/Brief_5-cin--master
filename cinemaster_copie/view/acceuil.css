@@ -1,0 +1,322 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.952);
+  color: white;
+}
+
+.test {
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.test h1 {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.test p {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: helvetica;
+  margin-left: 30px;
+}
+
+.logo {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.creer p {
+  color: #DC333F;
+}
+
+.creer button {
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+  border: solid 4px white;
+  width: 120px;
+  height: 40px;
+}
+
+.creer button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #DC333F;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  gap: 11px;
+  margin-right: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
+header ul li a button {
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+  border: solid 4px white;
+  width: 120px;
+  height: 40px;
+}
+
+header ul li a button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #DC333F;
+}
+
+header ul li a #creer_compt {
+  width: 170px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.watching {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  color: white;
+}
+
+.watching p {
+  margin-top: 5px;
+}
+
+.box {
+  width: 20%;
+  margin: 0px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.imageSize {
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.watching2 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.vl {
+  border-left: 3px solid white;
+  height: 270px;
+}
+
+.vh {
+  border-bottom: 3px solid white;
+  width: 80%;
+  display: none;
+  text-align: center;
+}
+
+.movie_pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.actors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 20px;
+}
+
+.rounded_images {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 10px;
+}
+
+.pic_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.star_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.815);
+  color: white;
+  padding: 20px;
+  width: 80%;
+  height: 310px;
+  margin-left: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.p_star {
+  width: 30%;
+  margin-right: 20px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.star {
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 250px;
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: auto;
+  padding: 10px;
+  padding-bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#icones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#icones .icone {
+  width: 30px !important;
+  height: 30px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  header button {
+    margin-top: 20px;
+  }
+  header ul {
+    gap: 20px;
+  }
+  .box {
+    width: 30%;
+  }
+  .star_div {
+    display: block;
+    height: auto;
+  }
+  .p_star {
+    width: 80%;
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+  .movie_pic {
+    display: block;
+  }
+  .vl {
+    display: none;
+  }
+  .vh {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
+  .test {
+    height: 750px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header button {
+    margin-top: 30px;
+  }
+  .box {
+    width: 70%;
+  }
+  .star_div {
+    display: block;
+    height: auto;
+  }
+  .p_star {
+    width: 80%;
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+  .vl {
+    display: none;
+  }
+  .vh {
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
+  .movie_pic {
+    display: block;
+  }
+  .actors {
+    margin-left: 0;
+  }
+  .test {
+    height: 550px;
+  }
+  h1 {
+    margin-top: 40px;
+  }
+}
+/*# sourceMappingURL=acceuil.css.map */

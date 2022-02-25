@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/Group.png);
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header #logout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10%;
+  width: 80%;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+header #logout img {
+  width: 30px;
+}
+
+header #logout a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header #logout a:hover {
+  color: #DC333F;
+}
+
+header #logout p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header #logout p:hover {
+  color: #DC333F;
+}
+
+header #logout button {
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 20px;
+}
+
+header #logout button:hover {
+  cursor: pointer;
+  color: #DC333F;
+}
+
+.fixed_post {
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+.fixed_post .post_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  margin-right: 2.5%;
+  margin-bottom: 0px;
+}
+
+.fixed_post .post_header .modify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fixed_post .post_header .modify p {
+  margin-left: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.fixed_post .post_header .modify p:hover {
+  cursor: pointer;
+}
+
+.fixed_post img {
+  width: 95%;
+  margin-left: 2.5%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 10px;
+}
+
+.fixed_post p {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 10px;
+}
+
+.fixed_post h4 {
+  width: 95%;
+  margin-left: 2.5%;
+  color: #DC333F;
+  margin-bottom: 0px;
+}
+
+.fixed_post #commenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-right: 2.5%;
+}
+
+.fixed_post #commenter img {
+  width: 30px;
+}
+
+.fixed_post #commenter input {
+  background: transparent;
+  border: none;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.fixed_post #like {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2.5%;
+}
+
+.fixed_post #like img {
+  width: 30px;
+  margin-right: 70px;
+}
+
+.fixed_post #react {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.commentaire {
+  height: 50px !important;
+}
+
+@media screen and (max-width: 600px) {
+  header #logout {
+    margin-left: 1%;
+    width: 98%;
+    margin-bottom: 10px;
+    padding-top: 20px;
+  }
+  header #logout img {
+    width: 20px;
+  }
+  header #logout a {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  header #logout p {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  header #logout button {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .fixed_post {
+    width: 98%;
+    margin-left: 1%;
+  }
+}
+/*# sourceMappingURL=profile.css.map */

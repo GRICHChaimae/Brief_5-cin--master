@@ -1,0 +1,14 @@
+#pour_commenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+}
+
+#pour_commenter button {
+  background-color: white;
+  color: black;
+  border: none;
+  height: 25px;
+}
+/*# sourceMappingURL=commenter.css.map */
