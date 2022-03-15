@@ -46,22 +46,4 @@
 
 
 
-class Add_Post{
-    
-    public function AddPost(){
-
-        if(isset($_POST['submit'])){
-            $result = NewPost::AddPost();
-            if($result === 'ok'){
-                header("location:profile.php");
-            }else{
-                echo $result;  
-            }
-        }
-        }
-}   
-
-   
-
-?>
 
