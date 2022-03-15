@@ -112,6 +112,7 @@ header #logout button:hover {
   border: none;
   margin-left: 10px;
   font-weight: bold;
+  margin-top: 8px;
 }
 .fixed_post #like {
   display: flex;
