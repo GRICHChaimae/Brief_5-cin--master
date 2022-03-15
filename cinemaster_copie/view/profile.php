@@ -1,3 +1,13 @@
+<?php 
+if(!isset($_SESSION)){
+  session_start();
+}
+if(!isset($_SESSION["userName"])){
+  header("location: ./login.php");
+  return;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,11 +27,11 @@
       <a href="acceuil.html"><span class="ps-2 text-white fw-bold pt-4 fs-3" style="margin-left: 20PX; padding-top: 20px;">Ciné<span class="text-danger">Master</span></span></a>
       <nav>
       <div id="logout">
-       <p>Bienvenue <?php session_start(); if(isset($_SESSION["userName"])){ echo ' '.$_SESSION["userName"];}?></p>
+       <p>Bienvenue <?php if(isset($_SESSION["userName"])){ echo ' '.$_SESSION["userName"];}?></p>
        <div>
       <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" href=""><img src="images/add_post.png" alt="">Ajouter un post</a>
       </div>
-      <button>Se déconnecter</button>
+      <a href="logout.php">Se déconnecter</a>
       </div>
         
 <!-- Modal -->
