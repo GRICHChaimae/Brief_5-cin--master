@@ -75,42 +75,6 @@
       </nav>
     </header>
 
-    <div class="fixed_post">
-        <h4>Peaky Blinders</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reiciendis explicabo possimus accusantium eum eos, dignissimos iure ratione itaque, nemo, id dolor? In vel sapiente illum repudiandae, eos ad quae!</p>
-        <img src="images/fixed_post.png" alt="">
-        <div id="react">
-        <div id="like">
-          <img src="images/like.png" alt="">
-          <img src="images/dislike.png" alt="">
-        </div>
-        <div id="commenter">
-        <img src="images/commenter.png" alt="">
-        <input type="submit" name="submit_comment" value="Commenter">
-      </div>
-        </div>
-
-    </div>
-
-    <div class="fixed_post">
-        <h4>Peaky Blinders</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reiciendis explicabo possimus accusantium eum eos, dignissimos iure ratione itaque, nemo, id dolor? In vel sapiente illum repudiandae, eos ad quae!</p>
-        <img src="images/fixed_post.png" alt="">
-        <div id="react">
-        <div id="like">
-          <img src="images/like.png" alt="">
-          <img src="images/dislike.png" alt="">
-        </div>
-        <div id="commenter">
-        <img src="images/commenter.png" alt="">
-
-
-        <input type="submit" name="submit_comment" value="Commenter">
-      </div>
-        </div>
-
-    </div>
-
     <?php foreach($Posts as $Value):?>
     <div class="fixed_post">
       <div class="post_header">
