@@ -1,14 +1,25 @@
-#pour_commenter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 95%;
+.fixed_post .cmnt {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2.5%;
+  }
+  .fixed_post .cmnt #react #like img {
+    width: 31%;
+    height: 31%;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+  .fixed_post #pour_commenter {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .fixed_post #pour_commenter input {    width: 300%;
+  }
+  .fixed_post #pour_commenter button {
+    background-color: white;
+    width: 150px;
+    color: black;
+    border: none;
+    height: 25px;
 }
-
-#pour_commenter button {
-  background-color: white;
-  color: black;
-  border: none;
-  height: 25px;
-}
-/*# sourceMappingURL=commenter.css.map */
