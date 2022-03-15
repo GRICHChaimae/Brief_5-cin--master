@@ -39,13 +39,7 @@ if(isset($_POST['submit'])){
         <?php echo $Post['description_'] ?>
         </p>
         <img src="<?php echo $Post['photo'] ?>" alt="">
-        <div id="react">
-        <div id="like">
-          <img src="images/like.png" alt="">
-          <img src="images/dislike.png" alt="">
-        </div>
-   
-        </div>
+       
         <div class="d-flex">
           <form action="" method="post">
             <div id="pour_commenter">
